@@ -87,3 +87,11 @@ document.addEventListener('DOMContentLoaded', setupDropdowns);
 document.getElementById('burger').addEventListener('click', () => {
     document.querySelector('.header').classList.toggle('open');
 });
+
+document.querySelector('.logo').addEventListener('click', () => {
+    window.location.reload();
+});
+
+document.querySelector('.nav-item').addEventListener('click', () => {
+    window.location.reload();
+});
