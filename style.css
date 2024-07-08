@@ -116,6 +116,7 @@ header nav ul li {
 }
 
 .cont__dropdawn li a {
+    position: relative;
     display: block;
     margin: 24px 14px;
     padding: 0 10px;
@@ -123,6 +124,11 @@ header nav ul li {
     font-size: 16px;
     letter-spacing: 0.5px;
     font-family: "Poppins", sans-serif;
+}
+
+.tg-icon {
+    position: absolute;
+    height: 80%;
 }
 
 .header__burger-btn {
